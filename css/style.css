@@ -29,15 +29,14 @@ body {
     max-width: 105px;
     max-height: 105px;
     margin-left: 30px;
+}
+
+#logo {
     float: left;
     width: 75px;
 }
 
 /*navigation bar*/
-
-.top-container {
-    height: 800px;
-}
 
 .bar {
     height: 90px;
@@ -157,6 +156,10 @@ body {
 
 ::-webkit-scrollbar-thumb {
     background-color: #666666;
+}
+
+.top-container {
+    height: 800px;
 }
 
 .top-containerPic {
