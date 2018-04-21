@@ -274,7 +274,7 @@ body {
 .forth-container {
     margin-top: 10px;
     width: auto;
-    height: 520px;
+    height: 490px;
 }
 
 .video-container {
@@ -282,7 +282,7 @@ body {
     margin-top: 20px;
     margin-right: 20px;
     width: 720px;
-    height: 400px;
+    height: 320px;
 }
 
 .video-container .upperPart {
@@ -293,7 +293,7 @@ body {
 
 .video-container .bottomPart {
     width: auto;
-    height: 360px;
+    height: 330px;
     background-color: #E0E0E0;
 }
 
@@ -305,7 +305,7 @@ body {
     float: left;
     margin-top: 20px;
     width: 370px;
-    height: 400px;
+    height: 370px;
 }
 
 .calender-container .upperPart {
@@ -316,7 +316,7 @@ body {
 
 .calender-container .bottomPart {
     width: auto;
-    height: 360px;
+    height: 330px;
     background-color: #E0E0E0;
 }
 
