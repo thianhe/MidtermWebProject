@@ -211,9 +211,8 @@ body {
 
 .border-upper-left, .border-upper-right, .border-bottom-left, .border-bottom-right {
     float: left;
-    width: 555px;
+    width: 50%;
     height: 395px;
-    position: relative;
 }
 
 .border-upper-left p {
