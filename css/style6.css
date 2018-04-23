@@ -17,7 +17,7 @@ html {
 body {
     margin: 0;
     /*width:  1260px;*/
-    height: 3000px;
+    height: 1600px;
 }
 
 #page {
@@ -167,167 +167,62 @@ body {
     background-size: cover;
 }
 
-/*footer*/
+/*content*/
 
-.fbicon {
-    align-items: center;
-    width: 6%;
-    margin-bottom: 10px;
-    margin-top: 15px;
+.center h1 {
+    font-size: 70px;
+    font-family: 'Roboto', sans-serif;
 }
-
-.youtubeicon {
-    align-items: center;
-    width: 8%;
-    margin-left: 30px;
-}
-
-/* Content*/
-
-/*top*/
-
-.club {
-    color: white;
-    font-size: 30px;
-}
-
-.ntut {
-    color: white;
-    font-size: 60px;
-    font-family: 'Rock Salt', cursive;
-}
-
-.since {
-    color: white;
-    font-family: 'Rock Salt', cursive;
-}
-
-/*sec*/
 
 .second-container {
-    margin-top: 20px;
-    height: 790px;
-}
-
-.border-upper-left, .border-upper-right, .border-bottom-left, .border-bottom-right {
-    float: left;
-    width: 555px;
-    height: 395px;
-    position: relative;
-}
-
-.border-upper-left p {
-    color: white;
-    position: absolute;
-    top: 20%;
-    left: 35%;
-    transform: translate(-100%, -22%);
-    font-size: 20px;
-}
-
-.border-upper-right p {
-    color: black;
-    text-align: center;
-    position: absolute;
-    top: 30%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 20px;
-}
-
-.border-bottom-left p {
-    color: white;
-    text-align: center;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-140%, -60%);
-    font-size: 20px;
-}
-
-.border-bottom-right p {
-    color: white;
-    text-align: center;
-    position: absolute;
-    top: 45%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 20px;
-}
-
-/*third*/
-
-.third-container {
-    margin-top: 20px;
+    margin-top: 30px;
     width: auto;
-    height: 500px;
-    background-color: #E0E0E0;
+    height: 482px;
+}
+
+.firstProfile, .secProfile, .thirdProfile {
+    float: left;
+    width: 348px;
+    height: 480px;
+    border: 1px solid gray;
     border-radius: 6px;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
 }
 
-.third-container .title {
-    padding: 30px;
+.firstProfile, .secProfile {
+    margin-right: 30px;
 }
 
-.third-container hr {
-    margin: 0 30px;
+.profile {
+    flex-shrink: 0;
+    margin: 20px;
+    margin-left: 55px;
+    height: calc(150px + 6vw);
+    width: calc(150px + 6vw);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    background-size: cover;
 }
 
-.message-content {
-    margin: 30px;
+.profilePic {
+    border-radius: 50%;
+    background-image: url(../img/aboutus/dog.jpg), linear-gradient(to bottom right, #ff3cac, #562b7c, #2b86c5);
 }
 
-.first-message, .sec-message {
-    margin: 30px;
-}
-
-/*forth*/
-
-.forth-container {
-    margin-top: 10px;
-    width: auto;
-    height: 490px;
-}
-
-.video-container {
-    float: left;
+.icon {
     margin-top: 20px;
-    margin-right: 20px;
-    width: 720px;
-    height: 470px;
+    margin-left: 120px;
 }
 
-.video-container .upperPart {
-    width: auto;
-    height: 100px;
-    background-color: #ff0000;
+.icon img {
+    width: 15%;
+    margin-left: 10px;
 }
 
-.video-container .bottomPart {
-    width: auto;
-    height: 330px;
-    background-color: #E0E0E0;
-}
-
-.bottomPart {
-    padding: 20px;
-}
-
-.calender-container {
-    float: left;
+.second-container p {
+    font-size: 20px;
     margin-top: 20px;
-    width: 370px;
-    height: 470px;
-}
-
-.calender-container .upperPart {
-    width: auto;
-    height: 100px;
-    background-color: #7151DD;
-}
-
-.calender-container .bottomPart {
-    width: auto;
-    height: 330px;
-    background-color: #E0E0E0;
+    text-align: center;
 }
