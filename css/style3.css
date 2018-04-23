@@ -17,7 +17,7 @@ html {
 body {
     margin: 0;
     /*width:  1260px;*/
-    height: 2900px;
+    height: 2600px;
 }
 
 #page {
@@ -190,12 +190,19 @@ body {
 
 .second-container {
     width: auto;
-    height: 1850px;
+    margin: 20px 0;
+    height: 1500px;
 }
 
 .profile1, .profile2, .profile3, .profile4, .profile5, .profile6, .profile7, .profile8 {
-    width: 371px;
+    align: center;
+    width: 50%;
     height: 370px;
-    margin: 40px 92px 40px;
     float: left;
+}
+
+.second-container img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
