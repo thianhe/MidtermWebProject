@@ -28,7 +28,7 @@ body {
 #logo {
     max-width: 105px;
     max-height: 105px;
-    margin-left: 30px;
+    margin-left: 5%;
     float: left;
     width: 75px;
 }
@@ -37,7 +37,9 @@ body {
 
 .bar {
     height: 90px;
-    margin-left: 800px;
+    margin: 0;
+    padding: 0;
+    margin-left: 35%;
 }
 
 .navbar {
@@ -115,7 +117,13 @@ body {
     text-align: center;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -35%);
+    width: 500px;
+    height: 240px;
+    padding-top: 20px;
+    background: rgba(219, 59, 59, 0.5);
+    box-shadow: 0 0 0 20px rgba(0, 0, 0, 0.3);
+    border-radius: 1px;
 }
 
 /* shows navigation */
@@ -165,6 +173,25 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+/*fooer*/
+
+.fbicon {
+    align-items: center;
+    width: 6%;
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+
+.youtubeicon {
+    align-items: center;
+    width: 8%;
+    margin-left: 30px;
+}
+
+footer {
+    margin-top: 40px;
 }
 
 /* Content*/
