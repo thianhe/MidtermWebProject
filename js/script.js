@@ -113,11 +113,5 @@ $(document).ready(function() {
         }
     });
     // Random Image loop
-    @for $item from 1 through 40 {
-        .grid - item: nth - child(#{
-            $item
-        }) {
-            background - image: url('./img#{$item}');
-        }
-    }
+
 });
