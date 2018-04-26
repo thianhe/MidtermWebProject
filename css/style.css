@@ -330,7 +330,7 @@ body {
 
 .calender-container .bottomPart {
     width: auto;
-    max-width: auto;
+    min-width: auto;
     height: 400px;
     background-color: #E0E0E0;
 }
