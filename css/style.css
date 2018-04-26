@@ -330,12 +330,11 @@ body {
 
 .calender-container .bottomPart {
     width: auto;
-    min-width: auto;
     height: 400px;
     background-color: #E0E0E0;
 }
 
 .calender-container .bottomPart iframe {
-    height: 350px;
     width: auto;
+    height: 350px;
 }
