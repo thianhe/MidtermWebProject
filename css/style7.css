@@ -8,6 +8,8 @@
 
 html {
     box-sizing: border-box;
+    height: auto;
+    margin-bottom: 100px;
 }
 
 .clear {
@@ -17,8 +19,6 @@ html {
 body {
     margin: 0;
     /*width:  1260px;*/
-    height: auto;
-    margin-bottom: 20px;
 }
 
 #page {
@@ -158,122 +158,95 @@ body {
     height: 1000px;
 }
 
-.top-containerPic0 {
-    width: 100%;
-    height: 1000px;
-    background-size: cover;
-    background: url(../img/16/top.jpg) 0/ cover fixed;
-    margin-bottom: 10px;
-}
-
 .top-containerPic {
     width: 100%;
     height: 1000px;
     background-size: cover;
-    background: url(../img/17/top.jpg) 0/ cover fixed;
+    background: url(../img/aboutus/color.jpeg) 0/ cover fixed;
     margin-bottom: 10px;
 }
 
-.center>h1 {
+.center h1 {
     position: absolute;
     text-align: center;
-    top: 45%;
-    left: 40%;
-    transform: translate(0%, 0%);
-    color: white;
-    font-size: 80px;
+    top: 50%;
+    left: 49.4%;
+    transform: translate(-50%, -50%);
+    font-size: 120px;
+    font-family: 'Roboto', sans-serif;
 }
 
-/*footer*/
+/*content*/
 
-.inline-block-center {
-    text-align: center;
-}
-
-.inline-block-center .fbicon, .inline-block-center .youtubeicon {
-    display: inline-block;
-    text-align: left;
-}
-
-.fbicon {
-    width: 6%;
-}
-
-.youtubeicon {
-    margin-left: 1%;
-    width: 8%;
-}
-
-/* Content*/
-
-/*sec*/
-
-.second-container0 {
+.second-container {
+    margin-top: 30px;
     width: auto;
-    margin: 20px 0;
-    height: 1500px;
+    height: 482px;
 }
 
-.profile01, .profile02, .profile03, .profile04, .profile05, .profile06, .profile07, .profile08 {
-    align: center;
-    width: 50%;
-    height: 370px;
+.firstProfile, .secProfile, .thirdProfile {
     float: left;
+    width: 31%;
+    height: 590px;
+    border: 1px solid gray;
+    border-radius: 6px;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
 }
 
-.second-container0 img {
+.firstProfile, .secProfile {
+    margin-right: 3.2%;
+}
+
+.profile {
+    flex-shrink: 0;
+    margin: 20px;
+    margin-left: 55px;
+    height: calc(160px + 6vw);
+    width: calc(160px + 6vw);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    background-size: cover;
+}
+
+.firstProfile .profilePic {
+    border-radius: 50%;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    background-image: url(../img/aboutus/doge.jpg), linear-gradient(to bottom right, #ff3cac, #562b7c, #2b86c5);
+    background-position: right -10px bottom -10px;
 }
 
-.second-container {
-    width: auto;
-    height: 1850px;
+.secProfile .profilePic {
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(../img/aboutus/dog.jpg), linear-gradient(to bottom right, #ff3cac, #562b7c, #2b86c5);
 }
 
-.profile1, .profile3, .profile5 {
-    width: 49%;
-    height: 436px;
-    float: left;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    border: 2px solid rgb(88, 150, 224);
-    border-radius: 5px;
-    padding: 10px;
+.thirdProfile .profilePic {
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(../img/aboutus/dog.jpg), linear-gradient(to bottom right, #ff3cac, #562b7c, #2b86c5);
 }
 
-.profile2, .profile4, .profile6 {
-    float: right;
-    width: 49%;
-    height: 436px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    border: 2px solid rgb(88, 150, 224);
-    border-radius: 5px;
-    padding: 10px;
+.icon {
+    margin-top: 20px;
+    text-align: center;
 }
 
-.second-container img {
-    float: left;
-    padding-right: 20px;
-    vertical-align: middle;
+.icon img {
+    width: 12%;
+    margin-left: 10px;
 }
 
-.second-container h1 {
-    margin: 0;
-    margin-top: 3%;
-    margin-bottom: 20px;
-    top: 50%;
-    left: 50%;
-    transform: translate(0%, 7%)
-}
-
-.profile7 {
-    border: 2px solid rgb(88, 150, 224);
-    width: auto;
-    height: 436px;
-    margin-top: 10px;
-    padding: 10px;
-    border-radius: 5px;
+.second-container p {
+    font-size: 20px;
+    margin-top: 20px;
+    text-align: center;
 }

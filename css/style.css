@@ -17,7 +17,8 @@ html {
 body {
     margin: 0;
     /*width:  1260px;*/
-    height: 3000px;
+    height: auto;
+    margin-bottom: 20px;
 }
 
 #page {
@@ -28,7 +29,7 @@ body {
 #logo {
     max-width: 105px;
     max-height: 105px;
-    margin-left: 30px;
+    margin-left: 5%;
     float: left;
     width: 75px;
 }
@@ -37,7 +38,10 @@ body {
 
 .bar {
     height: 90px;
-    margin-left: 800px;
+    margin: 0;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .navbar {
@@ -48,6 +52,7 @@ body {
     height: 90px;
     background-color: black;
     filter: opacity(0.5);
+    z-index: 2;
 }
 
 .bar>a {
@@ -110,14 +115,6 @@ body {
     filter: none;
 }
 
-.center {
-    position: absolute;
-    text-align: center;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
 /* shows navigation */
 
 .navbar.detached {
@@ -147,7 +144,7 @@ body {
 }
 
 ::-webkit-scrollbar {
-    width: 6px;
+    width: 10px;
     background-color: #F5F5F5;
 }
 
@@ -155,31 +152,46 @@ body {
     background-color: #666666;
 }
 
+/*top*/
+
 .top-container {
-    height: 800px;
+    height: 1000px;
 }
 
 .top-containerPic {
     width: 100%;
-    height: 800px;
-    background-position: center;
-    background-repeat: no-repeat;
+    height: 1000px;
     background-size: cover;
+    background: url(../img/index/piano6.jpg) 0/ cover fixed;
+    margin-bottom: 10px;
+}
+
+.center {
+    position: relative;
+    text-align: center;
+    top: -60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 /*footer*/
 
+.inline-block-center {
+    text-align: center;
+}
+
+.inline-block-center .fbicon, .inline-block-center .youtubeicon {
+    display: inline-block;
+    text-align: left;
+}
+
 .fbicon {
-    align-items: center;
     width: 6%;
-    margin-bottom: 10px;
-    margin-top: 15px;
 }
 
 .youtubeicon {
-    align-items: center;
+    margin-left: 1%;
     width: 8%;
-    margin-left: 30px;
 }
 
 /* Content*/
@@ -269,7 +281,7 @@ body {
     margin-top: 20px;
     margin-right: 20px;
     width: 64.9%;
-    height: 470px;
+    height: 500px;
 }
 
 .video-container .upperPart {
@@ -280,19 +292,19 @@ body {
 
 .video-container .bottomPart {
     width: auto;
-    height: 370px;
+    height: 400px;
     background-color: #E0E0E0;
 }
 
 .bottomPart {
-    padding: 20px 20px 0 20px;
+    padding: 20px;
 }
 
 .calender-container {
-    float: left;
+    float: right;
     margin-top: 20px;
-    width: 33%;
-    height: 470px;
+    width: 33.2%;
+    height: 500px;
 }
 
 .calender-container .upperPart {
@@ -303,6 +315,6 @@ body {
 
 .calender-container .bottomPart {
     width: auto;
-    height: 370px;
+    height: 400px;
     background-color: #E0E0E0;
 }

@@ -3,7 +3,28 @@ $(document).ready(function() {
         menuOffset = 70, // height of menu (once scroll passed it, menu is hidden)
         detachPoint = 2900, // point of detach (after scroll passed it, menu is fixed)
         hideShowOffset = 1; // scrolling value after which triggers hide/show menu
-
+    $('.musicbutton').click(function() {
+        if (($(this).text()) === '顯示音符') {
+            $(this).text('隱藏音符');
+            $('.normal').show(".normal");
+            $('.sharp').show(".sharp");
+        } else {
+            $(this).text('顯示音符');
+            $('.normal').hide(".normal");
+            $('.sharp').hide(".sharp");
+        }
+    });
+    $('.keybutton').click(function() {
+        if (($(this).text()) === '顯示音符') {
+            $(this).text('隱藏提示');
+            $('.normalkey').show(".normalkey");
+            $('.sharpkey').show(".sharpkey");
+        } else {
+            $(this).text('顯示音符');
+            $('.normalkey').hide(".normalkey");
+            $('.sharpkey').hide(".sharpkey");
+        }
+    });
     // on scroll hide/show menu
     $(window).scroll(function() {
         if ($('.navbar').hasClass('expanded')) {
