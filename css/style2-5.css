@@ -115,9 +115,9 @@ body {
     text-align: center;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -35%);
+    transform: translate(-50%, -50%);
     width: 500px;
-    height: 240px;
+    height: 70px;
     padding-top: 20px;
     background: rgba(219, 59, 59, 0.5);
     box-shadow: 0 0 0 20px rgba(0, 0, 0, 0.3);
