@@ -240,6 +240,25 @@ body {
     width: 8%;
 }
 
+/*fooer*/
+
+.fbicon {
+    align-items: center;
+    width: 6%;
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+
+.youtubeicon {
+    align-items: center;
+    width: 8%;
+    margin-left: 30px;
+}
+
+footer {
+    margin-top: 40px;
+}
+
 /* Content*/
 
 .video-container, .picture-container {
